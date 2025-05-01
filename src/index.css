@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-white: hsl(0, 0%, 98%);
+  --color-gray: hsl(0, 0%, 41%);
+  --color-black: hsl(0, 0%, 8%);
+
+  --breakpoint-customSmall: 375px;
+  --breakpoint-custom: 1440px;
+  --breakpoint-phone: 480px;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+
+  background-color: var(--color-white);
+}
+
+button {
+  cursor: pointer;
+}
